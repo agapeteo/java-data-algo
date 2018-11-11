@@ -1,6 +1,6 @@
-package linkedlist;
+package list;
 
-import linkedlist.LinkedList.Node;
+import list.LinkedList.Node;
 
 
 public class FindFromEnd<T> {

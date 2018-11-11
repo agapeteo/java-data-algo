@@ -1,6 +1,6 @@
-package linkedlist;
+package list;
 
-import linkedlist.LinkedList.Node;
+import list.LinkedList.Node;
 
 
 public class ReverseLinkedList<T> {
@@ -23,7 +23,6 @@ public class ReverseLinkedList<T> {
     public Node<T> reverseRecursive(Node head, LinkedList list) {
         if (head == null || head.next == null) {
             list.setHeadNode(head);
-            System.out.println("exit because head is: " + head.value);
             return head;
         }
 

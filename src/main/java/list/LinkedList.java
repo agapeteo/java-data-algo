@@ -1,27 +1,65 @@
-package linkedlist;
+package list;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
-public class LinkedList<E> {
+public class LinkedList<E> implements Stack<E>, Queue<E>{
     
     private Node<E> head;
     private Node<E> tail;
     private int size;
-    
+
     static class Node<E>{
         E value;
         Node<E> next;
-        
         Node(E value){
             this.value = value;
         }
+
     }
 
     public LinkedList(){
         this.size = 0;
     }
-    
+
+    @Override
+    public void push(E element) {
+        addFirst(element);
+    }
+
+    @Override
+    public E pull() throws NoSuchElementException {
+        if (size == 0) throw new NoSuchElementException();
+
+        E result = getFirst();
+        deleteFirst();
+
+        return result;
+    }
+
+    @Override
+    public E peek() throws NoSuchElementException {
+        if (size == 0) throw new NoSuchElementException();
+
+        return getFirst();
+    }
+
+    @Override
+    public void enqueue(E element) {
+        addLast(element);
+    }
+
+    @Override
+    public E dequeue() throws NoSuchElementException {
+        if (size == 0) throw new NoSuchElementException();
+
+        E result = getFirst();
+        deleteFirst();
+
+        return result;
+    }
+
     public E get(int index) {
         if (index < 0 || index > size-1) throw new IndexOutOfBoundsException(index + " index, size: " + size);
 

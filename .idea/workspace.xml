@@ -2,79 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="767c939e-0455-4096-8b51-19850d62a11a" name="Default Changelist" comment="- added stack and queue">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/EvictingRingBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/Kadane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/BitManipulations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bits/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dynamic/StairJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/math/EratosthenesSievePrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/GreatestCommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/StairJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/StringPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/HoareQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/ListBasedCountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/LomutoQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/MaxBinaryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/UnbalancedBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/EvictingRingBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/InPlaceDuplicateRemoval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/InPlaceDuplicateRemovalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/KadaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bits/BitManipulationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bits/PowerSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dynamic/PowerSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dynamic/StairJumpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/graph/GraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/list/ListNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/list/MinStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/math/EratosthenesSievePrimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/GreatestCommonDivisorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/StairJumpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/StringPermutationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/CountingSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/HoareQuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/ListBasedCountingSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/LomutoQuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/QuickSelectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sort/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/strings/StringRoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/strings/StringRollerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/strings/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/strings/WordCountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tree/MaxBinaryHeapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tree/TreeWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trie/BasicTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/trie/BasicTrieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/MergeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/KotlinMergeSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/KotlinQuickSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/list/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/list/ReverseLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/UnbalancedBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tree/OldUnbalancedBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/UnbalancedBinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tree/UnbalancedBinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InsertSortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InsertSortKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/java.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MergeSortKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSortKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/linkedlist/FindFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/linkedlist/FindFromEndTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/linkedlist/LinkedListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/linkedlist/ReverseLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/linkedlist/ReverseLinkedListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tree/UnbalancedBinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tree/UnbalancedBinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tree/UnbalancedBinarySearchTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tree/UnbalancedBinarySearchTreeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,15 +122,16 @@
       <recent name="linkedlist" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="trie" />
       <recent name="tree" />
       <recent name="linkedlist" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="trie" />
       <recent name="arrays" />
       <recent name="math" />
       <recent name="tree" />
       <recent name="sort" />
-      <recent name="recursion" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -215,18 +147,33 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KadaneTest">
-    <configuration name="EratosthenesSievePrimeTest.primes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BasicTrieTest">
+    <configuration name="BasicTrieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.*" />
+          <option name="PATTERN" value="trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="math" />
-      <option name="MAIN_CLASS_NAME" value="math.EratosthenesSievePrimeTest" />
-      <option name="METHOD_NAME" value="primes" />
+      <option name="PACKAGE_NAME" value="trie" />
+      <option name="MAIN_CLASS_NAME" value="trie.BasicTrieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTrieTest.basic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trie" />
+      <option name="MAIN_CLASS_NAME" value="trie.BasicTrieTest" />
+      <option name="METHOD_NAME" value="basic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,22 +226,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxBinaryHeapTest.simple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.MaxBinaryHeapTest" />
-      <option name="METHOD_NAME" value="simple" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnbalancedBinarySearchTreeTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
@@ -312,19 +243,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UnbalancedBinarySearchTreeTest" />
-      <item itemvalue="JUnit.MaxBinaryHeapTest.simple" />
-      <item itemvalue="JUnit.EratosthenesSievePrimeTest.primes" />
       <item itemvalue="JUnit.KadaneTest.testMaxSum" />
       <item itemvalue="JUnit.KadaneTest.testMaxSum_2" />
       <item itemvalue="JUnit.KadaneTest" />
+      <item itemvalue="JUnit.BasicTrieTest.basic" />
+      <item itemvalue="JUnit.BasicTrieTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BasicTrieTest" />
+        <item itemvalue="JUnit.BasicTrieTest.basic" />
         <item itemvalue="JUnit.KadaneTest" />
         <item itemvalue="JUnit.KadaneTest.testMaxSum_2" />
         <item itemvalue="JUnit.KadaneTest.testMaxSum" />
-        <item itemvalue="JUnit.EratosthenesSievePrimeTest.primes" />
-        <item itemvalue="JUnit.MaxBinaryHeapTest.simple" />
       </list>
     </recent_temporary>
   </component>
@@ -367,30 +298,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="- added stack and queue" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1585892814469">
+    <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1586288892347">
       <screen x="0" y="23" width="1680" height="988" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1680.988@0.23.1680.988" timestamp="1585892814469" />
-    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1585892814468">
-      <screen x="0" y="23" width="1680" height="988" />
+    <state x="653" y="233" key="#com.intellij.ide.util.MemberChooser/0.23.1680.988@0.23.1680.988" timestamp="1586288892347" />
+    <state width="1371" height="267" key="GridCell.Tab.0.bottom" timestamp="1586299025804">
+      <screen x="0" y="23" width="1680" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1680.988@0.23.1680.988" timestamp="1585892814468" />
-    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1585892814467">
-      <screen x="0" y="23" width="1680" height="988" />
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1680.988@0.23.1680.988" timestamp="1586291296154" />
+    <state width="1371" height="267" key="GridCell.Tab.0.bottom/0.23.1680.989@0.23.1680.989" timestamp="1586299025804" />
+    <state width="1371" height="267" key="GridCell.Tab.0.center" timestamp="1586299025803">
+      <screen x="0" y="23" width="1680" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1680.988@0.23.1680.988" timestamp="1585892814467" />
-    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1585892814469">
-      <screen x="0" y="23" width="1680" height="988" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1680.988@0.23.1680.988" timestamp="1586291296153" />
+    <state width="1371" height="267" key="GridCell.Tab.0.center/0.23.1680.989@0.23.1680.989" timestamp="1586299025803" />
+    <state width="1371" height="267" key="GridCell.Tab.0.left" timestamp="1586299025803">
+      <screen x="0" y="23" width="1680" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1680.988@0.23.1680.988" timestamp="1585892814469" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1680.988@0.23.1680.988" timestamp="1586291296152" />
+    <state width="1371" height="267" key="GridCell.Tab.0.left/0.23.1680.989@0.23.1680.989" timestamp="1586299025803" />
+    <state width="1371" height="267" key="GridCell.Tab.0.right" timestamp="1586299025804">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1680.988@0.23.1680.988" timestamp="1586291296153" />
+    <state width="1371" height="267" key="GridCell.Tab.0.right/0.23.1680.989@0.23.1680.989" timestamp="1586299025804" />
     <state x="517" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585886597525">
       <screen x="0" y="23" width="1680" height="988" />
     </state>
     <state x="517" y="349" key="com.intellij.ide.util.TipDialog/0.23.1680.988@0.23.1680.988" timestamp="1585886597525" />
-    <state x="619" y="266" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585886821076">
+    <state x="619" y="266" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586291096679">
       <screen x="0" y="23" width="1680" height="988" />
     </state>
-    <state x="619" y="266" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.988@0.23.1680.988" timestamp="1585886821076" />
+    <state x="619" y="266" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.988@0.23.1680.988" timestamp="1586291096679" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
